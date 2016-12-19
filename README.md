@@ -6,6 +6,5 @@ Got annoyed by rewiring these dependencies again and again and found a lot of ex
 This is not meant to be used by others or meant to become the best boilerplate out there, it is just a helper for me.
 
 Is missing:
- * hmr
  * css
- * bundling of react & react dom
+ * chunk hashing
