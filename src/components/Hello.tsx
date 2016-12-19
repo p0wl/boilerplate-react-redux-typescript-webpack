@@ -5,8 +5,8 @@ import { setData } from '../actions';
 import { IAction } from '../reducer';
 
 export interface HelloProps {
-    list: Array<String>,
-    setData: ActionCreator<IAction>
+    list: Array<String>;
+    setData: ActionCreator<IAction>;
 }
 
 const Hello: React.StatelessComponent<HelloProps> = (props) => {
@@ -18,6 +18,6 @@ const Hello: React.StatelessComponent<HelloProps> = (props) => {
             <button onClick={() => props.setData(['a', 'b'])}>Clickme</button>
         </div>
     );
-}
+};
 
 export default connect(state => ({ list: state.values }), { setData })(Hello);
