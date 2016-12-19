@@ -1,11 +1,13 @@
 {
-  "name": "rangers",
+  "name": "boilerplate-react-redux-typescript-webpack",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "lint": "tslint -c tslint.json '*/**/*.tsx'",
-    "test": "jest"
+    "test": "jest",
+    "dev": "webpack-dev-server",
+    "build": "webpack"
   },
   "keywords": [],
   "author": "Paul Mölders",
